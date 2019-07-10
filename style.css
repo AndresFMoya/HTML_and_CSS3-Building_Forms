@@ -10,8 +10,7 @@ header {
 
 .logo-section {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 38%;
     width:50%;
 }
 
@@ -22,8 +21,34 @@ header {
 
 .form-section {
     background-color: white;
+    width: 30%;
+    margin:auto;
+    padding: 40px 30px 200px 40px;
+
 }
 
-.form-section h2 {
+.white {
     background-color: white;
+
 }
+h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+ 
+}
+h4 {
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+.form-section a{
+    font-size: 0.4rem;
+
+}
+#tos {
+    font-size: 0.3rem;
+}
+
+#privacy {
+    font-size: 0.15rem;
+}
+
