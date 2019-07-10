@@ -1,0 +1,29 @@
+* {
+    background-color: #ECEEF1;
+    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header {
+    position: absolute; right:0;
+    padding-right: 20px;
+}
+
+.logo-section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
+
+.logo-section .logo img {
+    max-width: 50%;
+    height: auto;   
+}
+
+.form-section {
+    background-color: white;
+}
+
+.form-section h2 {
+    background-color: white;
+}
