@@ -10,48 +10,45 @@
 <body>
   <header>
     <div class="header-section" style="height: 60px">
-        <div class="header-text">
-          <p>Already have an Intuit account?</p>
-          <a id="" href="#">I forgot my User ID or Password</a>
-        </div>
-        <div class="">
-          <button id="header-button">
-            <span class=""></span>
-            Sign In
-          </button>
-        </div>
+      <div class="header-text">
+        <p>Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <div class="">
+        <button id="header-button">
+          <span class=""></span>
+          Sign In
+        </button>
+      </div>
     </div>
 
   </header>
-  <section class="logo-section">
+  <div class="logo-section">
     <div id="logo" class="logo">
-      <img src="images/Screen Shot 2019-07-10 at 18.09.50.png" alt="intuit logo">
+      <img src="images/Screenshot.png" alt="intuit logo">
     </div>
-  </section>
+  </div>
 
   <section class="form-section">
     <h2 class="white">Create an Intuit account</h2>
     <h4 class="white">One account for everything Intuit, including Mint. <br><a class="white"
         href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank"
-        id="sign-up-ecosystem-learn-more" class="small-info-link">Learn&nbsp;more</a> </h4>
+        id="sign-up-ecosystem-learn-more">Learn&nbsp;more</a> </h4>
 
 
     <form class="white" action="/where-data-will-be-sent" method="post">
 
-      <label class="white" id="label-email" class="label" for="email">Email address</label><br>
-      <input class="white" class="form-side" id="email" class="text-input" placeholder="You'll verify this later"
-        maxlength="100" type="email" aria-required="true" required="required" autocomplete="off" data-valid="valid">
+      <label class="white" id="label-email" for="email">Email address</label><br>
+      <input class="white" id="email" placeholder="You'll verify this later" maxlength="100" type="email"
+        aria-required="true" required="required" autocomplete="off" data-valid="valid">
       <br>
-      <label class="white" id="phone" class="label" for="mobile-phone">Phone <span class="white"
-          class="optional">(recommended)</span></label><br>
-      <input class="white" class="form-side" id="mobile-phone" autocomplete="off"
-        placeholder="Helps with lost passwords and security" type="tel" class="text-input intl-reset" maxlength="30"
-        data-valid="valid">
+      <label class="white" id="phone" for="mobile-phone">Phone <span class="white">(recommended)</span></label><br>
+      <input class="white" id="mobile-phone" autocomplete="off" placeholder="Helps with lost passwords and security"
+        type="tel" maxlength="30" data-valid="valid">
       <br>
-      <label class="white" id="label-password" class="label" for="password">Password</label><br>
-      <input class="white" class="form-side" id="password" autocomplete="new-password" class="text-input"
-        placeholder="​Don't reuse an old password" maxlength="50" type="password" aria-required="true"
-        required="required" aria-describedby="ius_password_pwdStrengthIndicator error-password">
+      <label class="white" id="label-password" for="password">Password</label><br>
+      <input class="white" id="password" autocomplete="new-password" placeholder="​Don't reuse an old password"
+        maxlength="50" type="password" aria-required="true" required="required">
       <br>
       <button id="sign-up-submit-btn" class="btn btn-submit btn-prominent" type="submit" name="SignUp"
         data-clicked-text="Creating ..." data-default-text="Create account">
@@ -62,8 +59,8 @@
     </form>
 
     <div class=tos>
-      <p class="white" class="terms-of-service" id="tos"> By clicking Create Account, you agree to our<a
-          href="https://www.mint.com/terms">Terms of Service </a>
+      <p class="white" id="tos"> By clicking Create Account, you agree to our<a href="https://www.mint.com/terms">Terms
+          of Service </a>
         and have read and acknowledge our <a href="https://security.intuit.com/privacy"> Privacy
           Statement</a>.</p>
     </div>
