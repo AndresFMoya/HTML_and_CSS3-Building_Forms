@@ -3,10 +3,36 @@
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header {
-    position: absolute;
-    right: 0;
+.header-section {
+    display: flex;
+    justify-content: flex-end;
     padding-right: 20px;
+}
+
+.header-section p {
+    color: gray;
+    font-size: 0.8rem;
+    line-height: 0.1;
+    margin-bottom: 7px;
+
+}
+
+header a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0;
+
+}
+
+.header-section button {
+    background-color: #0077C5;
+    color: white;
+    height: 3rem;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    width: 120px;
+    margin-left: 10px;
+
 }
 
 .logo-section {
@@ -79,9 +105,12 @@ h4 {
 }
 
 #privacy {
-    font-size: 0.8rem;
-    height: 60px;
+    font-size: 0.7rem;
+    height: 30px;
     text-align: center;
+    margin-top: 20px;
+    margin-left: 13px;
+    color: gray;
 
 }
 
@@ -91,7 +120,7 @@ h4 {
 
 .container {
     display: flex;
-    align-items: baseline;
+    /* align-items: baseline; */
 }
 
 form input {
