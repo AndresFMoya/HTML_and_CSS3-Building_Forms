@@ -2,78 +2,93 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" href="style.css">
-<title>Intuit Account - Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Intuit Account - Sign Up</title>
 
 </head>
 
 <body>
-    <header>
-            <div class="" style="height: 60px">
-                    <div class="" style="">
-                      <div class="">
-                        <div>Already have an Intuit account?</div>
-                        <a id="" href="#">I forgot my User ID or Password</a>
-                      </div>
-                      <div class="">
-                        <button id="" class="">
-                          <span class=""></span>
-                          Sign In
-                        </button>
-                      </div>
-                    </div>
-                  </div>
+  <header>
+    <div class="" style="height: 60px">
+      <div class="" style="">
+        <div class="">
+          <div>Already have an Intuit account?</div>
+          <a id="" href="#">I forgot my User ID or Password</a>
+        </div>
+        <div class="">
+          <button id="" class="">
+            <span class=""></span>
+            Sign In
+          </button>
+        </div>
+      </div>
+    </div>
 
-    </header>
-    <section class ="logo-section">
-            <div id="logo" class="logo">
-                    <img src="images/Screen Shot 2019-07-10 at 18.09.50.png" alt="intuit logo" >    
-            </div>
-    </section>
+  </header>
+  <section class="logo-section">
+    <div id="logo" class="logo">
+      <img src="images/Screen Shot 2019-07-10 at 18.09.50.png" alt="intuit logo">
+    </div>
+  </section>
 
-    <section class="form-section">    
-        <h2 class="white">Create an Intuit account</h2>
-        <h4 class="white">One account for everything Intuit, including Mint. </h4>
-        <a class="white" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank" id="ius-sign-up-ecosystem-learn-more" class="ius-small-info-link">Learn&nbsp;more</a>
+  <section class="form-section">
+    <h2 class="white">Create an Intuit account</h2>
+    <h4 class="white">One account for everything Intuit, including Mint. </h4>
+    <a class="white" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank"
+      id="sign-up-ecosystem-learn-more" class="small-info-link">Learn&nbsp;more</a>
 
-        <form class="white" action="/where-data-will-be-sent" method="post">
+    <form class="white" action="/where-data-will-be-sent" method="post">
 
-            <label class="white" id="ius-label-email" class="ius-label" for="ius-email">Email address</label><br>
-            <input class="white" id="ius-email" class="ius-text-input" placeholder="You'll verify this later" maxlength="100" type="email" aria-required="true" required="required" autocomplete="off" data-valid="valid">
-            <br>
-            <label class="white" id="phone" class="ius-label" for="ius-mobile-phone">Phone <span class="white" class="ius-optional">(recommended)</span></label><br>
-            <input class="white" id="ius-mobile-phone" autocomplete="off" placeholder="Helps with lost passwords and security" type="tel" class="ius-text-input ius-intl-reset" maxlength="30" data-valid="valid">
-            <br>
-            <label class="white" id="ius-label-password" class="ius-label" for="ius-password">Password</label><br>
-            <input class="white" id="ius-password" autocomplete="new-password" class="ius-text-input" placeholder="​Don't reuse an old password" maxlength="50" type="password" aria-required="true" required="required" aria-describedby="ius_password_pwdStrengthIndicator ius-error-password">
-
-            <button id="ius-sign-up-submit-btn" class="ius-btn ius-btn-submit ius-btn-prominent" type="submit" name="SignUp" data-clicked-text="Creating ..." data-default-text="Create account">
-                <span id="ius-sign-up-submit-img" class="ius-white-lock-img"></span> <span id="ius-sign-up-submit-btn-text">Create account</span></button>
-
-
-        </form>
-
-
-        <p class="white" class="terms-of-service"id="tos"> By clicking Create Account, you agree to our<a href="https://www.mint.com/terms">
-            Terms of Service </a>and have read and acknowledge our <a href="https://security.intuit.com/privacy"> Privacy Statement</a>.</p>
-
-        <p class="privacy-police" id="privacy"> Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.</p>
-
-    </section>
+      <label class="white" id="label-email" class="label" for="email">Email address</label><br>
+      <input class="white" class ="form-side" id="email" class="text-input" placeholder="You'll verify this later" maxlength="100"
+        type="email" aria-required="true" required="required" autocomplete="off" data-valid="valid">
+      <br>
+      <label class="white" id="phone" class="label" for="mobile-phone">Phone <span class="white"
+          class="optional">(recommended)</span></label><br>
+      <input class="white" class ="form-side" id="mobile-phone" autocomplete="off" placeholder="Helps with lost passwords and security"
+        type="tel" class="text-input intl-reset" maxlength="30" data-valid="valid">
+      <br>
+      <label class="white" id="label-password" class="label" for="password">Password</label><br>
+      <input class="white" class ="form-side" id="password" autocomplete="new-password" class="text-input"
+        placeholder="​Don't reuse an old password" maxlength="50" type="password" aria-required="true"
+        required="required" aria-describedby="ius_password_pwdStrengthIndicator error-password">
+      <br>
+      <button id="sign-up-submit-btn" class="btn btn-submit btn-prominent" type="submit" name="SignUp"
+        data-clicked-text="Creating ..." data-default-text="Create account">
+        <span id="sign-up-submit-img" class="white-lock-img"></span> <span id="sign-up-submit-btn-text">Create
+          account</span></button>
 
 
-<footer>
+    </form>
 
-    <ul class="ius-hosted-ui-footer-link-container">
-        <li><a id="ius-sign-up-legal-link" href="http://about.intuit.com/legal/" target="_blank" data-wa-link="intcom-legal-Legal">Legal</a></li>
-        <li><a id="ius-sign-up-privacy-link" href="https://security.intuit.com/privacy/" target="_blank" data-wa-link="intcom-legal-Privacy">Privacy</a></li>
-        <li><a id="ius-sign-up-security-link" href="http://security.intuit.com/" target="_blank" data-wa-link="intcom-legal-Security">Security</a></li>
+
+    <p class="white" class="terms-of-service" id="tos"> By clicking Create Account, you agree to our<a
+        href="https://www.mint.com/terms">
+        Terms of Service </a>and have read and acknowledge our <a href="https://security.intuit.com/privacy"> Privacy
+        Statement</a>.</p>
+
+    <p class="privacy-police" id="privacy"> Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.
+    </p>
+
+  </section>
+
+
+  <footer>
+
+    <ul class="hosted-ui-footer-link-container">
+      <li><a id="sign-up-legal-link" href="http://about.intuit.com/legal/" target="_blank"
+          data-wa-link="intcom-legal-Legal">Legal</a></li>
+      <li><a id="sign-up-privacy-link" href="https://security.intuit.com/privacy/" target="_blank"
+          data-wa-link="intcom-legal-Privacy">Privacy</a></li>
+      <li><a id="sign-up-security-link" href="http://security.intuit.com/" target="_blank"
+          data-wa-link="intcom-legal-Security">Security</a></li>
     </ul>
 
-    <p class="copyright"> © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice. </p>
+    <p class="copyright"> © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint
+      are registered trademarks of Intuit Inc.
+      Terms and conditions, features, support, pricing, and service options subject to change without notice. </p>
 
-</footer>
+  </footer>
 
 </body>
 

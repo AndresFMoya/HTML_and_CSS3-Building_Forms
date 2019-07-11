@@ -1,54 +1,92 @@
 * {
     background-color: #ECEEF1;
-    font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 header {
-    position: absolute; right:0;
+    position: absolute;
+    right: 0;
     padding-right: 20px;
 }
 
 .logo-section {
     display: block;
     margin-left: 38%;
-    width:50%;
+    width: 50%;
 }
 
 .logo-section .logo img {
     max-width: 50%;
-    height: auto;   
+    height: auto;
 }
 
 .form-section {
     background-color: white;
-    width: 30%;
-    margin:auto;
-    padding: 40px 30px 200px 40px;
-
+    width: 23%;
+    margin: auto;
+    padding: 40px 0px 200px 40px;
 }
+
 
 .white {
     background-color: white;
 
 }
+
 h2 {
     font-size: 1.3rem;
     font-weight: normal;
- 
+
 }
+
 h4 {
     font-size: 0.7rem;
     font-weight: normal;
 }
-.form-section a{
+
+.form-section a {
     font-size: 0.4rem;
 
 }
+
 #tos {
     font-size: 0.3rem;
+    width: 70%;
+    text-align: center;
 }
 
 #privacy {
     font-size: 0.15rem;
+    position: absolute; 
+    text-align: center;
 }
 
+.form-side {
+    width: 300%;
+    background-color: aqua;
+}
+
+form input {
+    width: 90%;
+    height: 1.8rem;
+    margin-bottom: 10px;
+}
+
+form label {
+    font-weight: normal;
+    color: #404040;
+    font-size: 1rem;
+}
+
+form button {
+    width: 90%;
+    background-color: #0077C5;
+    color: white;
+    height: 3rem;
+    border-radius: 10%;
+    font-size: 1.2rem;
+}
+
+form #sign-up-submit-btn-text {
+    background-color: #0077C5
+}
