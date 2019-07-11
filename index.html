@@ -10,7 +10,7 @@
 <body>
   <header>
     <div class="" style="height: 60px">
-      <div class="" style="">
+      <div class="">
         <div class="">
           <div>Already have an Intuit account?</div>
           <a id="" href="#">I forgot my User ID or Password</a>
@@ -33,23 +33,25 @@
 
   <section class="form-section">
     <h2 class="white">Create an Intuit account</h2>
-    <h4 class="white">One account for everything Intuit, including Mint. </h4>
-    <a class="white" href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank"
-      id="sign-up-ecosystem-learn-more" class="small-info-link">Learn&nbsp;more</a>
+    <h4 class="white">One account for everything Intuit, including Mint. <br><a class="white"
+        href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account" target="_blank"
+        id="sign-up-ecosystem-learn-more" class="small-info-link">Learn&nbsp;more</a> </h4>
+
 
     <form class="white" action="/where-data-will-be-sent" method="post">
 
       <label class="white" id="label-email" class="label" for="email">Email address</label><br>
-      <input class="white" class ="form-side" id="email" class="text-input" placeholder="You'll verify this later" maxlength="100"
-        type="email" aria-required="true" required="required" autocomplete="off" data-valid="valid">
+      <input class="white" class="form-side" id="email" class="text-input" placeholder="You'll verify this later"
+        maxlength="100" type="email" aria-required="true" required="required" autocomplete="off" data-valid="valid">
       <br>
       <label class="white" id="phone" class="label" for="mobile-phone">Phone <span class="white"
           class="optional">(recommended)</span></label><br>
-      <input class="white" class ="form-side" id="mobile-phone" autocomplete="off" placeholder="Helps with lost passwords and security"
-        type="tel" class="text-input intl-reset" maxlength="30" data-valid="valid">
+      <input class="white" class="form-side" id="mobile-phone" autocomplete="off"
+        placeholder="Helps with lost passwords and security" type="tel" class="text-input intl-reset" maxlength="30"
+        data-valid="valid">
       <br>
       <label class="white" id="label-password" class="label" for="password">Password</label><br>
-      <input class="white" class ="form-side" id="password" autocomplete="new-password" class="text-input"
+      <input class="white" class="form-side" id="password" autocomplete="new-password" class="text-input"
         placeholder="​Don't reuse an old password" maxlength="50" type="password" aria-required="true"
         required="required" aria-describedby="ius_password_pwdStrengthIndicator error-password">
       <br>
@@ -61,28 +63,31 @@
 
     </form>
 
-
-    <p class="white" class="terms-of-service" id="tos"> By clicking Create Account, you agree to our<a
-        href="https://www.mint.com/terms">
-        Terms of Service </a>and have read and acknowledge our <a href="https://security.intuit.com/privacy"> Privacy
-        Statement</a>.</p>
-
-    <p class="privacy-police" id="privacy"> Invisible reCAPTCHA by Google <a>Privacy Policy</a> and <a>Terms of Use</a>.
-    </p>
-
+    <div class=tos>
+      <p class="white" class="terms-of-service" id="tos"> By clicking Create Account, you agree to our<a
+          href="https://www.mint.com/terms">Terms of Service </a>
+        and have read and acknowledge our <a href="https://security.intuit.com/privacy"> Privacy
+          Statement</a>.</p>
+    </div>
+    <div class="container">
+      <p class="privacy-police" id="privacy"> Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a
+          href="#">Terms of Use</a>.
+      </p>
+    </div>
   </section>
 
 
   <footer>
-
-    <ul class="hosted-ui-footer-link-container">
-      <li><a id="sign-up-legal-link" href="http://about.intuit.com/legal/" target="_blank"
-          data-wa-link="intcom-legal-Legal">Legal</a></li>
-      <li><a id="sign-up-privacy-link" href="https://security.intuit.com/privacy/" target="_blank"
-          data-wa-link="intcom-legal-Privacy">Privacy</a></li>
-      <li><a id="sign-up-security-link" href="http://security.intuit.com/" target="_blank"
-          data-wa-link="intcom-legal-Security">Security</a></li>
-    </ul>
+    <div id="container2">
+      <ul class="hosted-ui-footer-link-container">
+        <li><a id="sign-up-legal-link" href="http://about.intuit.com/legal/" target="_blank"
+            data-wa-link="intcom-legal-Legal">Legal</a></li>
+        <li><a id="sign-up-privacy-link" href="https://security.intuit.com/privacy/" target="_blank"
+            data-wa-link="intcom-legal-Privacy">Privacy</a></li>
+        <li><a id="sign-up-security-link" href="http://security.intuit.com/" target="_blank"
+            data-wa-link="intcom-legal-Security">Security</a></li>
+      </ul>
+    </div>
 
     <p class="copyright"> © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint
       are registered trademarks of Intuit Inc.
