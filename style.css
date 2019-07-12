@@ -56,6 +56,9 @@ header a {
     margin: auto;
     padding: 0px 0px 0px 0px;
     border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
 }
 
 section h2 {
@@ -80,15 +83,21 @@ h2 {
 h4 {
     font-size: 0.7rem;
     font-weight: normal;
+ 
 }
 
 .form-section a {
     font-size: 0.4rem;
+    text-decoration: none;
 
 
 }
+.form-section h4 a {
+    margin-left:35%;
 
-#tos {
+}
+
+.tos p {
     font-size: 0.3rem;
     margin-left: 20px;
     margin-right: 20px;
@@ -108,7 +117,7 @@ h4 {
     text-decoration: none;
 }
 
-#privacy {
+.privacy-police {
     font-size: 0.7rem;
     height: 30px;
     text-align: center;
@@ -154,14 +163,15 @@ form button {
 
 }
 
-#sign-up-ecosystem-learn-more {
+.sign-up-ecosystem-learn-more {
     text-align: center;
     padding: 0;
     margin-left: 110px;
+    text-decoration: none;
 
 }
 
-#sign-up-submit-btn-text {
+.sign-up-submit-btn-text {
     background-color: #0077C5;
 }
 
@@ -200,7 +210,7 @@ footer li {
 .others-logo img {
     width: 20px;
     height:20px;
-    /* padding-bottom: 20px; */ */ */
+    /* padding-bottom: 20px; */
 }
 
 .others-logo a {
