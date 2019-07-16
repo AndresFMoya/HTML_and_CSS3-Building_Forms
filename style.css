@@ -1,0 +1,236 @@
+* {
+    background-color: #ECEEF1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header-section {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    height: 60px;
+}
+
+.header-section p {
+    color: gray;
+    font-size: 0.8rem;
+    line-height: 0.1;
+    margin-bottom: 7px;
+
+}
+
+header a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    margin: 0;
+
+}
+
+.header-section button {
+    background-color: #0077C5;
+    color: white;
+    height: 3rem;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    width: 120px;
+    margin-left: 10px;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+
+.logo-section .logo img {
+    max-width: 12%;
+    height: auto;
+}
+
+.logo-section{
+    margin-bottom: 0px;
+}
+
+.form-section {
+    background-color: white;
+    width: 23%;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+section h2 {
+    margin-left: 40px;
+}
+
+section h4 {
+    margin-left: 30px;
+}
+
+.white {
+    background-color: white;
+
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: normal;
+
+}
+
+h4 {
+    font-size: 0.8rem;
+    font-weight: normal;
+ 
+}
+
+.form-section a {
+    font-size: 0.4rem;
+    text-decoration: none;
+}
+
+
+.form-section h4 a {
+    margin-left:35%;
+    font-size: 0.8rem;
+}
+
+.form-section h2 {
+    font-size: 1.6rem;
+    margin-left:25px;
+}
+
+.tos p {
+    font-size: 0.8rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 2;
+    color: gray;
+    text-decoration: none;
+}
+
+.tos {
+    background-color: white;
+    width: 100%;
+}
+
+.tos a {
+    background-color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.privacy-police {
+    font-size: 0.7rem;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 13px;
+    color: gray;
+
+}
+
+.privacy-police a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    width: 90%;
+    height: 1.8rem;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+form label {
+    font-weight: normal;
+    color: #404040;
+    font-size: 1rem;
+    margin-left: 10px;
+
+}
+
+form button {
+    width: 90%;
+    background-color: #0077C5;
+    color: white;
+    height: 3rem;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.sign-up-ecosystem-learn-more {
+    text-align: center;
+    padding: 0;
+    margin-left: 110px;
+    text-decoration: none;
+
+}
+
+.sign-up-submit-btn-text {
+    background-color: #0077C5;
+}
+
+footer {
+    width: 50%;
+    margin: auto;
+    font-size: 0.8rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin-right: 20px;
+    display: inline;
+}
+
+.others-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.others-logo img {
+    width: 20px;
+    height:20px;
+}
+
+.others-logo a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1rem;
+}
+
+.other-logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.others-logo h4 {
+    margin-right: 5px;
+    margin-left: 5px;
+}

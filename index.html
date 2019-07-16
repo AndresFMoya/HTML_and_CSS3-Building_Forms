@@ -1,3 +1,112 @@
-<form action="/my-handling-form-page" method="post">
+<!DOCTYPE html>
+<html lang="en">
 
-</form>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css">
+  <title>Intuit Account - Sign Up</title>
+
+</head>
+
+<body>
+  <header>
+    <div class="header-section">
+      <div class="header-text">
+        <p>Already have an Intuit account?</p>
+        <a href="#">I forgot my User ID or Password</a>
+      </div>
+      <div class="">
+        <button id="header-button">
+          <span class=""></span>
+          Sign In
+        </button>
+      </div>
+    </div>
+
+  </header>
+  <div class="logo-section">
+    <div id="logo" class="logo">
+      <img src="images/Logo.png" alt="intuit logo">
+    </div>
+    <div class="others-logo">
+      <!-- <div class="other-logo-container"> -->
+      <img src="images/turbotax-logo.png" alt="turbotax logo">
+      <h4><a id="turbotax-link" href="https://turbotax.intuit.com/" target="_blank"> turbotax</a></h4>
+      <!-- </div> -->
+      <!-- <div class="other-logo-container"> -->
+      <img src="images/quickbooks-logo.png" alt="quickbooks logo">
+      <h4><a id="quickbooks-link" href="https://quickbooks.intuit.com/" target="_blank"> quickbooks</a></h4>
+      <!-- </div> -->
+      <!-- <div class="other-logo-container"></div> -->
+      <img src="images/mint-logo.png" alt="mint logo">
+      <h4><a id="mint-link" href="https://www.mint.com/" target="_blank"> mint</a></h4>
+      <!-- </div> -->
+    </div>
+  </div>
+
+  <section class="form-section">
+    <h2 class="white">Create an Intuit account</h2>
+    <h4 class="white">One account for everything Intuit, including Mint. <br><a class="white"
+        href="https://accounts-help.lc.intuit.com/questions/1582580-creating-an-account"
+        target="_blank">Learn&nbsp;more</a> </h4>
+
+
+    <form class="white" action="/where-data-will-be-sent" method="post">
+
+      <label class="white" for="email">Email address</label><br>
+      <input class="white" id="email" placeholder="You'll verify this later" maxlength="100" type="email"
+        aria-required="true" required="required" autocomplete="off" data-valid="valid">
+      <br>
+      <label class="white" id="phone" for="mobile-phone">Phone <span class="white">(recommended)</span></label><br>
+      <input class="white" id="mobile-phone" autocomplete="off" placeholder="Helps with lost passwords and security"
+        type="tel" maxlength="30" data-valid="valid">
+      <br>
+      <label class="white" id="label-password" for="password">Password</label><br>
+      <input class="white" id="password" autocomplete="new-password" placeholder="​Don't reuse an old password"
+        maxlength="50" type="password" aria-required="true" required="required">
+      <br>
+      <button id="sign-up-submit-btn" type="submit" name="SignUp" data-clicked-text="Creating ..."
+        data-default-text="Create account">
+        <span id="sign-up-submit-img" class="white-lock-img"></span> <span class="sign-up-submit-btn-text">Create
+          account</span></button>
+
+
+    </form>
+
+    <div class=tos>
+      <p class="white"> By clicking Create Account, you agree to our<a href="https://www.mint.com/terms">Terms
+          of Service </a>
+        and have read and acknowledge our <a href="https://security.intuit.com/privacy"> Privacy
+          Statement</a>.</p>
+    </div>
+    <div class="container">
+      <p class="privacy-police"> Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of
+          Use</a>.
+      </p>
+    </div>
+  </section>
+
+
+  <footer>
+    <div id="container2">
+      <ul class="hosted-ui-footer-link-container">
+        <li><a id="sign-up-legal-link" href="http://about.intuit.com/legal/" target="_blank"
+            data-wa-link="intcom-legal-Legal">Legal</a></li>
+        <li><a id="sign-up-privacy-link" href="https://security.intuit.com/privacy/" target="_blank"
+            data-wa-link="intcom-legal-Privacy">Privacy</a></li>
+        <li><a id="sign-up-security-link" href="http://security.intuit.com/" target="_blank"
+            data-wa-link="intcom-legal-Security">Security</a></li>
+      </ul>
+    </div>
+
+    <p class="copyright"> © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint
+      are registered trademarks of Intuit Inc.
+      Terms and conditions, features, support, pricing, and service options subject to change without notice. </p>
+
+  </footer>
+
+</body>
+
+
+
+</html>
